@@ -3,11 +3,49 @@
 <body class=body>
 
     <style>
+        
+        ul {
+            background-color:white;
+            display:inline;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .lil {
+            background-color: white;
+            float:left;
+            font-family: arial,sans-serif;
+            font-size:13px;
+            color:black;
+            padding-top:14px;
+            padding-left:10px;
+        }
+        .lir{
+            background-color: white;
+            float:right;
+            font-family: arial,sans-serif;
+            font-size:13px;
+            color:black;
+            padding-top:14px;
+            padding-left:10px;
+        }
+        a {
+            padding:5px;
+            color:black;
+            ]
+        }
+        a:link{
+            text-decoration: none;
+            color:black;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
         /*figure out how to center properly*/
 
             .logo {
         display:block;
-        background-color:blue;
+        background-color:transparent;
         margin-left:auto;
         margin-right:auto;
         padding-top:109px;
@@ -27,15 +65,18 @@
                 font-size:small;
                 background-color: rgba(160, 157, 157, 0.932);
 }           .body{
-                background-color:red;
+                background-color:white;
 }
 
     </style>
-        <div id=topnav
-    
-        >
-        <a href=""> About </a>
-    </div>
+        <ul>
+            <li class=lil><a href="">About</a></li>
+            <li class=lil><a href="">Store</a></li>
+            <li class=lir><a href="">Sign in</a></li>
+            <li class=lir><a href="">DOTICON</a></li>
+            <li class=lir><a href="">Images</a></li>
+            <li class=lir><a href="">Gmail</a></li>
+        </ul>
 
     <a href=""><img id=logo class=logo src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Googl"></a>
    <div class="searchbar"><input type="text">
