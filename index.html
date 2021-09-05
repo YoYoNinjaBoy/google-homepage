@@ -117,13 +117,29 @@
             .searchbar{
             text-align:center;
             }
-            .button{
+            .gsifl{
                 text-align:center;
                 margin-top:20px
+                
             }
-            #b1{
-                margin-right:20px;
-                background-color:brown;
+
+            .button{
+                color:rgb(102, 102, 102);
+                width:130px;
+                height:36px;
+                margin-top:27px;
+                background-color:rgb(240, 240, 240);
+                border-color:transparent;
+                margin-top:8px;
+                margin-left:5px;
+                margin-right:5px;
+            }
+            .button:hover{
+                background-color:rgb(245, 244, 244);
+                border:1px, solid;
+                border-color:rgb(240, 240, 240);
+                color:rgb(39, 39, 39);
+                border-width:1px;
             }
             #h1 {
                 font-size:small;
@@ -143,14 +159,16 @@
         </ul>
 
     <a class=logo href="https://www.google.com"><img id=logo  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Googl"></a>
-   
+   <form action="">
     <div class="searchbar">
         <span id="sicon" class="material-icons">search</span>
         <input class="search" type="search">
     </div>
 
-    <div class=button><button id=b1>google search</button>
-    <button id=b2>I'm feeling lucky</button>
+    <div class=gsifl>
+        <button type=submit class=button id=b1>Google Search</button>
+        <button type=submit class=button id=b2>I'm Feeling Lucky</button>
     </div>
+    </form>
 </body>
 </html>
