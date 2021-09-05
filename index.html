@@ -55,11 +55,20 @@
         #sign-in:hover{
             text-decoration:none;
         }
-        ul {
+        .navtop {
             display:inline;
             list-style-type: none;
             margin: 0;
             padding: 0;
+        }
+        .barbot{
+            display:block;
+            position:absolute;
+            width:100%;
+            height:40px;
+            bottom:0px;
+            list-style-type:none;
+            background-color:rgb(240, 240, 240);
         }
         .lil {
             background-color: white;
@@ -79,6 +88,16 @@
             padding-top:14px;
             padding-right:10px;
         }
+        .navbot{
+            display:inline;
+            bottom:10px;
+            list-style-type: none;
+        }
+        #blir{
+            float:right;
+        }
+
+        
         a {
             padding:5px;
             color:black;
@@ -145,11 +164,13 @@
                 font-size:small;
                 background-color: rgba(160, 157, 157, 0.932);
 }           .body{
+                
                 background-color:white;
+                margin:0px;
 }
 
     </style>
-        <ul>
+        <ul class=navtop>
             <li class=lil><a href="">About</a></li>
             <li class=lil><a href="">Store</a></li>
             <li class=lir><a href=""id=sign-in>Sign in</a></li>
@@ -170,5 +191,16 @@
         <button type=submit class=button id=b2>I'm Feeling Lucky</button>
     </div>
     </form>
+    <div class=barbot>
+    </div>
+    <nav class=navbot>
+        <li id=blil><a href="" >Advertising</a></li>
+        <li id=blil><a href="" >Business</a></li>
+        <li id=blil><a href="" >How Search Works</a></li>
+        <li id=blir><a href="" >Settings</a></li>
+        <li id=blir><a href="" >Terms</a></li>
+        <li id=blir><a href="" >Privacy</a></li>
+        
+    </nav>
 </body>
 </html>
