@@ -6,7 +6,37 @@
 <body class=body>
 
     <style>
-       
+        .search{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-left:40px;
+            border-radius:25px;
+            width:485px;
+            height:46px;
+            border-color:rgb(240, 238, 238);
+            border-style:solid;
+            transition:box-shadow .1s;
+        }
+        .search:focus{
+            outline:none;
+        }
+        .search:hover{
+            box-shadow:0 0 6px
+            rgba(33,33,33,.2);
+        }
+        .searchbar{
+            display:flex;
+            position:relative;
+            min-width:100px;
+            justify-content:center;
+            margin-top:23px;
+            
+        }
+        #sicon{
+            position:absolute;
+            margin-right:427px;
+            margin-top:10px;
+            color:rgb(185, 183, 183);
+        }
         #sign-in{
             color:white;
             background-color:#4387fd;
@@ -49,7 +79,7 @@
         a {
             padding:5px;
             color:black;
-            ]
+            
         }
         a:link{
             text-decoration: none;
@@ -58,7 +88,7 @@
         a:hover{
             text-decoration: underline;
         }
-        .material-icons{
+        #apps{
             display:inline;
             position:relative;
             bottom:4px;
@@ -101,14 +131,18 @@
             <li class=lil><a href="">About</a></li>
             <li class=lil><a href="">Store</a></li>
             <li class=lir><a href=""id=sign-in>Sign in</a></li>
-            <li class=lir><a class="material-icons">apps</a>
+            <li class=lir><a class="material-icons" id=apps>apps</a>
             <li class=lir><a href="">Images</a></li>
             <li class=lir><a href="">Gmail</a></li>
         </ul>
 
     <a class=logo href="https://www.google.com"><img id=logo  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Googl"></a>
-   <div class="searchbar"><input type="text">
-   </div>
+   
+    <div class="searchbar">
+        <span id="sicon" class="material-icons">search</span>
+        <input class="search" type="search">
+    </div>
+
     <div class=button><button id=b1>google search</button>
     <button id=b2>I'm feeling lucky</button>
     </div>
