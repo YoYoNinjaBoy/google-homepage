@@ -31,6 +31,9 @@
             margin-top:23px;
             
         }
+        .link{
+            list-style-type:none;
+        }
         #sicon{
             position:absolute;
             margin-right:427px;
@@ -89,12 +92,24 @@
             padding-right:10px;
         }
         .navbot{
-            display:inline;
-            bottom:10px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:14px;
+            display:block;
             list-style-type: none;
+            position:absolute;
+            bottom:13px;
+            width:100%;
+        }
+        #blil{
+            float:left;
+            padding-right:20px;
+            margin-left:-10px;
         }
         #blir{
             float:right;
+            padding-right:10px;
+            margin-right:15px;
+            
         }
 
         
@@ -129,9 +144,9 @@
         height:92px;
         width:272px;
         background-color:transparent;
-        padding-top:148px;
-        margin:auto;
-        
+        padding-top:190px;
+        margin-left:auto;
+        margin-right:auto;
     }
             .searchbar{
             text-align:center;
@@ -193,14 +208,19 @@
     </form>
     <div class=barbot>
     </div>
-    <nav class=navbot>
+    <div class=navbot>
+    <nav>
+        
+    <ul class=link>
         <li id=blil><a href="" >Advertising</a></li>
         <li id=blil><a href="" >Business</a></li>
         <li id=blil><a href="" >How Search Works</a></li>
         <li id=blir><a href="" >Settings</a></li>
         <li id=blir><a href="" >Terms</a></li>
         <li id=blir><a href="" >Privacy</a></li>
-        
+    
+    </ul>
     </nav>
+    </div>
 </body>
 </html>
