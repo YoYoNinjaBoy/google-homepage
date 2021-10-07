@@ -1,0 +1,190 @@
+.search{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:40px;
+    border-radius:25px;
+    width:485px;
+    height:46px;
+    border-color:rgb(240, 238, 238);
+    border-style:solid;
+    transition:box-shadow .1s;
+}
+.search:focus{
+    outline:none;
+}
+.search:hover{
+    box-shadow:0 0 6px
+    rgba(33,33,33,.2);
+}
+.searchbar{
+    display:flex;
+    position:relative;
+    min-width:100px;
+    justify-content:center;
+    margin-top:23px;
+    
+}
+.link{
+    list-style-type:none;
+}
+#sicon{
+    position:absolute;
+    margin-right:427px;
+    margin-top:10px;
+    color:rgb(185, 183, 183);
+}
+#micon{
+    position:absolute;
+    margin-left:427px;
+    margin-top:10px;
+    color:rgb(185, 183, 183);
+}
+#sign-in{
+    color:white;
+    background-color:#4387fd;
+    font-weight: bold;
+    text-align:center;
+    display:inline;
+    height:10px;
+    padding-top:7px;
+    padding-right:10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    margin-right:8px;
+    
+    
+}
+#sign-in:hover{
+    text-decoration:none;
+}
+.top{
+    color:black;
+}
+.bot{
+    color:rgb(102, 102, 102);
+}
+.navtop {
+    display:inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.barbot{
+    display:block;
+    position:absolute;
+    width:100%;
+    height:40px;
+    bottom:0px;
+    list-style-type:none;
+    background-color:rgb(240, 240, 240);
+}
+.lil {
+    background-color: white;
+    float:left;
+    font-family: arial,sans-serif;
+    font-size:13px;
+    color:black;
+    padding-top:14px;
+    padding-left:10px;
+}
+.lir{
+    background-color: white;
+    float:right;
+    font-family: arial,sans-serif;
+    font-size:13px;
+    color:black;
+    padding-top:14px;
+    padding-right:10px;
+}
+.navbot{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    display:block;
+    list-style-type: none;
+    position:absolute;
+    bottom:13px;
+    width:100%;
+}
+#blil{
+    float:left;
+    padding-right:20px;
+    margin-left:-10px;
+}
+#blir{
+    float:right;
+    padding-right:10px;
+    margin-right:15px;
+    
+}
+
+
+a {
+    padding:5px;
+    color:rgb(102, 102, 102);
+    
+}
+a:link{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#apps{
+    color:rgb(102, 102, 102);
+    display:inline;
+    position:relative;
+    bottom:4px;
+    right:3px;
+    margin-left:5px;
+    margin-right:5px;
+
+}
+#apps:hover{
+    text-decoration:none;
+}
+/*figure out how to center properly-- i think i figured it out*/
+
+    .logo {
+display:block;
+height:92px;
+width:272px;
+background-color:transparent;
+padding-top:190px;
+margin-left:auto;
+margin-right:auto;
+}
+    .searchbar{
+    text-align:center;
+    }
+    .gsifl{
+        text-align:center;
+        margin-top:20px
+        
+    }
+
+    .button{
+        color:rgb(102, 102, 102);
+        width:130px;
+        height:36px;
+        margin-top:27px;
+        background-color:rgb(240, 240, 240);
+        border-color:transparent;
+        margin-top:8px;
+        margin-left:5px;
+        margin-right:5px;
+    }
+    .button:hover{
+        background-color:rgb(245, 244, 244);
+        border:1px, solid;
+        border-color:rgb(240, 240, 240);
+        color:rgb(39, 39, 39);
+        border-width:1px;
+    }
+    #h1 {
+        font-size:small;
+        background-color: rgba(160, 157, 157, 0.932);
+}           .body{
+        
+        background-color:white;
+        margin:0px;
+}
